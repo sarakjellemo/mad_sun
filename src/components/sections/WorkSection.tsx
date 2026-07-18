@@ -13,6 +13,7 @@ const PROJECTS = [
     slug: "amaze-festival",
     category: "Festival · Eventmarknadsföring · Sociala medier",
     title: "Amaze Festival",
+    objectPosition: "center 30%",
     description:
       "Sedan 2024 ansvarar jag för marknadsföring, sociala medier och kommunikation före, under och efter evenemanget. Arbetet omfattar innehållsstrategi, kampanjer, grafiskt material och operativ projektledning.",
     tags: ["Social Media", "Event Marketing", "Content Creation", "Artist Hospitality"],
@@ -90,7 +91,8 @@ function DesktopCard({
           alt={project.title}
           fill
           sizes="(min-width: 1024px) 50vw, 100vw"
-          className="object-cover object-center"
+          className="object-cover"
+          style={{ objectPosition: project.objectPosition ?? "center" }}
         />
       </motion.div>
 
@@ -182,7 +184,8 @@ function MobileCard({
           alt={project.title}
           fill
           sizes="100vw"
-          className="object-cover object-center"
+          className="object-cover"
+          style={{ objectPosition: project.objectPosition ?? "center" }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
 
