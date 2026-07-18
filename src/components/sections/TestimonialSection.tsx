@@ -34,7 +34,7 @@ export function TestimonialSection() {
             className="font-inter text-[clamp(0.9rem,1.3vw,1.05rem)] font-medium italic leading-[1.5] text-brand-espresso"
           >
             <p className="mb-4">
-              "Jag hade nöjet att arbeta tillsammans med Anna under Amaze Festival,
+              &ldquo;Jag hade nöjet att arbeta tillsammans med Anna under Amaze Festival,
               där jag ansvarade som Tour manager för Zara Larsson och Anna hade
               det operativa ansvaret för festivalen.
             </p>
@@ -46,7 +46,7 @@ export function TestimonialSection() {
               ett bra arbetsklimat.
             </p>
             <p>
-              Jag arbetar gärna med Anna igen."
+              Jag arbetar gärna med Anna igen.&rdquo;
             </p>
           </motion.blockquote>
 
