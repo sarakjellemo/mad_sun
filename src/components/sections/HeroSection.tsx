@@ -92,14 +92,14 @@ export function HeroSection() {
             </motion.p>
 
             {/* CTA — rounded pill, sky blue */}
-            <motion.div {...fadeUp(0.4)} className="flex flex-wrap gap-3 pt-2">
+            <motion.div {...fadeUp(0.4)} className="flex flex-row gap-3 pt-2">
               <a
                 href="#priser"
                 className={cn(
                   "inline-flex items-center justify-center",
                   "font-public-sans text-[11px] font-medium uppercase tracking-[0.15em]",
                   "bg-brand-sky text-brand-espresso",
-                  "rounded-full px-8 py-3.5 min-h-[48px]",
+                  "rounded-full px-5 py-3.5 min-h-[48px]",
                   "transition-colors duration-300 hover:bg-brand-sky/70",
                   "focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-espresso"
                 )}
@@ -113,7 +113,7 @@ export function HeroSection() {
                   "inline-flex items-center justify-center",
                   "font-public-sans text-[11px] font-medium uppercase tracking-[0.15em]",
                   "border border-brand-espresso/40 text-brand-espresso",
-                  "rounded-full px-8 py-3.5 min-h-[48px]",
+                  "rounded-full px-5 py-3.5 min-h-[48px]",
                   "transition-colors duration-300 hover:border-brand-espresso hover:bg-brand-espresso/5",
                   "focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-espresso"
                 )}

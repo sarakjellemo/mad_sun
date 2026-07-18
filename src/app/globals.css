@@ -28,7 +28,7 @@
   }
 
   body {
-    @apply bg-brand-linen text-brand-espresso font-inter;
+    @apply bg-white text-brand-espresso font-inter;
     font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
   }
 
