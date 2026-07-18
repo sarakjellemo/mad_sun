@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 28" fill="none">
+  <!-- N letterform -->
+  <path d="M2 20V8l8 12V8" stroke="#43302E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="16" y="18" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#43302E">Nortic</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 28" fill="none">
+  <!-- Canva icon: circle with C -->
+  <circle cx="14" cy="14" r="14" fill="#43302E"/>
+  <path d="M19.6 18.3c-.9.8-2.1 1.3-3.4 1.3-2.9 0-5.2-2.3-5.2-5.6 0-3.3 2.3-5.6 5.2-5.6 1.3 0 2.5.5 3.4 1.3l1.6-2c-1.3-1.1-3-1.8-5-1.8-4.2 0-7.6 3.3-7.6 8.1 0 4.8 3.4 8.1 7.6 8.1 2 0 3.7-.7 5-1.8l-1.6-2z" fill="#F8F6F1"/>
+  <!-- Canva wordmark -->
+  <text x="33" y="19" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#43302E">Canva</text>
+</svg>

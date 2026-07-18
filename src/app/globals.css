@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.375rem;
+
+    /* Brand palette */
+    --color-cream:    #FFF1B5;
+    --color-sky:      #C1DBE8;
+    --color-linen:    #F8F6F1;
+    --color-espresso: #43302E;
+
+    /* Semantic tokens */
+    --background:     var(--color-linen);
+    --foreground:     var(--color-espresso);
+    --surface:        #ffffff;
+    --border:         rgba(67, 48, 46, 0.12);
+    --muted:          rgba(67, 48, 46, 0.5);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-brand-linen text-brand-espresso font-inter;
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+  }
+
+  h1, h2, h3, h4 {
+    font-feature-settings: "kern" 1, "liga" 1;
+  }
+
+  ::selection {
+    background-color: var(--color-cream);
+    color: var(--color-espresso);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-espresso);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .text-pretty {
+    text-wrap: pretty;
+  }
+
+  /* Hairline divider */
+  .divider {
+    @apply border-t border-brand-espresso/10;
+  }
+
+  /* Fluid section padding */
+  .section-padding {
+    padding-block: clamp(4rem, 8vw, 8rem);
+  }
+
+  /* Max layout width + auto margins */
+  .layout-container {
+    @apply mx-auto w-full max-w-layout px-4 sm:px-8 lg:px-16;
+  }
+}
