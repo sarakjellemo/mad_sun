@@ -48,7 +48,7 @@ export function AboutSection() {
       <div className="layout-container section-padding">
 
         {/* ── Eyebrow ───────────────────────────────────────────── */}
-        <motion.div {...fadeIn(0)} className="flex items-center gap-4 mb-16">
+        <motion.div {...fadeIn(0)} className="hidden lg:flex items-center gap-4 mb-16">
           <motion.div
             className="h-px bg-brand-espresso/40"
             initial={{ width: 0 }}
@@ -86,7 +86,7 @@ export function AboutSection() {
 
             <motion.p
               {...fadeUp(0.16)}
-              className="font-inter text-[17px] font-normal leading-[1.8] text-brand-espresso/85 border-l-2 border-brand-espresso/25 pl-5"
+              className="hidden lg:block font-inter text-[17px] font-normal leading-[1.8] text-brand-espresso/85 border-l-2 border-brand-espresso/25 pl-5"
             >
               Jag hjälper företag, varumärken och event att synas, engagera
               och skapa upplevelser som människor kommer ihåg.
