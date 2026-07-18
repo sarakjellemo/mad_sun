@@ -74,6 +74,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       suppressHydrationWarning
     >
       <head>
+        <meta name="theme-color" content="#ffffff" />
         {jsonLd.map((schema, i) => (
           <script
             key={i}
